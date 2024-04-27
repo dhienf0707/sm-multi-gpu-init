@@ -17,10 +17,10 @@
 
 # edit this section
 providers=(0 1)  # in this case GPU0 and GPU1 are used (also you can use CPU, its number is 4294967295)
-atx="CF37DB1798887CE3AEC5B361941753D4C91C2B613823E3FC3718E303200727CB"  # Use latest Highest ATX (Hex)
-nodeId="2411201366addcec555ecca5115839706582f896d85521456814e301066886c8"  # Your public nodeId (smehserId)
-fileSize=$((2 * 1024 * 1024 * 1024))  # 2 GiB  (For larger volumes, for convenience, you can increase to 4,8,16+ GiB)
-numUnits=4  # 64 GiB each (mininum 4)
+atx="62ec1e3fc47ac61950d2da02f28647125995f8553fffa182a70442bd440708ae"  # Use latest Highest ATX (Hex)
+nodeId="a962ee9043c9811756ecc9bac014ef38ae300ac855bfe246a1fd6a6994eb8166"  # Your public nodeId (smehserId)
+fileSize=$((32 * 1024 * 1024 * 1024))  # 32 GiB  (For larger volumes, for convenience, you can increase to 4,8,16+ GiB)
+numUnits=57  # 64 GiB each (mininum 4)
 
 # If you want to manually set the scope of work you can set this following variables
 startFromFile=0	# The file number the script starts from
