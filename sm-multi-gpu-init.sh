@@ -16,7 +16,7 @@
 # Thank you!
 
 # edit this section
-providers=(0 1)  # in this case GPU0 and GPU1 are used (also you can use CPU, its number is 4294967295)
+providers=(0 1 2 3 4 5 6 7)  # in this case GPU0 and GPU1 are used (also you can use CPU, its number is 4294967295)
 atx="62ec1e3fc47ac61950d2da02f28647125995f8553fffa182a70442bd440708ae"  # Use latest Highest ATX (Hex)
 nodeId="a962ee9043c9811756ecc9bac014ef38ae300ac855bfe246a1fd6a6994eb8166"  # Your public nodeId (smehserId)
 fileSize=$((32 * 1024 * 1024 * 1024))  # 32 GiB  (For larger volumes, for convenience, you can increase to 4,8,16+ GiB)
