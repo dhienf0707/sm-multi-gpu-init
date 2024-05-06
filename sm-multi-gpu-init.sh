@@ -17,7 +17,7 @@
 
 # edit this section
 providers=(0 1 2 3 4 5 6 7)  # in this case GPU0 and GPU1 are used (also you can use CPU, its number is 4294967295)
-atx="62ec1e3fc47ac61950d2da02f28647125995f8553fffa182a70442bd440708ae"  # Use latest Highest ATX (Hex)
+atx="00196cc7dd86d49fdce8842a3d3e6260ede638a6a35abdbfff4b559acb889d25"  # Use latest Highest ATX (Hex)
 nodeId="a962ee9043c9811756ecc9bac014ef38ae300ac855bfe246a1fd6a6994eb8166"  # Your public nodeId (smehserId)
 fileSize=$((32 * 1024 * 1024 * 1024))  # 32 GiB  (For larger volumes, for convenience, you can increase to 4,8,16+ GiB)
 numUnits=57  # 64 GiB each (mininum 4)
