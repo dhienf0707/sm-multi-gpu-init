@@ -17,9 +17,9 @@
 
 # edit this section
 providers=(0 1)  # in this case GPU0 and GPU1 are used (also you can use CPU, its number is 4294967295)
-atx="0868df7aeb8ba2afc198df980adea772e61672196aa68ecbdb47c28e4b28df1a"  # Use latest Highest ATX (Hex)
-nodeId="a962ee9043c9811756ecc9bac014ef38ae300ac855bfe246a1fd6a6994eb8166"  # Your public nodeId (smehserId)
-fileSize=$((32 * 1024 * 1024 * 1024))  # 32 GiB  (For larger volumes, for convenience, you can increase to 4,8,16+ GiB)
+atx="00963908775736dc36c314b9c25eb87b3b274d43310a7a8febaf6b7914cd022d"  # Use latest Highest ATX (Hex)
+nodeId="4906880e4f2d36c2400a91250fde767e946130900585a9c4e169d25ca2fed0be"  # Your public nodeId (smehserId)
+fileSize=$((64 * 1024 * 1024 * 1024))  # 64 GiB  (For larger volumes, for convenience, you can increase to 4,8,16+ GiB)
 numUnits=87  # 64 GiB each (mininum 4)
 
 # If you want to manually set the scope of work you can set this following variables
