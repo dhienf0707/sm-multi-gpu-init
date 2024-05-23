@@ -23,7 +23,7 @@ fileSize=$((64 * 1024 * 1024 * 1024))  # 64 GiB  (For larger volumes, for conven
 numUnits=87  # 64 GiB each (mininum 4)
 
 # If you want to manually set the scope of work you can set this following variables
-startFromFile=0	# The file number the script starts from
+startFromFile=44	# The file number the script starts from
 finishAtFile=0	# The last file that will be created. Calculated from "numUnits" if set to 0
 
 dataDir="/home/user/post"
