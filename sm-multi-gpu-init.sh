@@ -16,17 +16,17 @@
 # Thank you!
 
 # edit this section
-providers=(0 1 2)  # in this case GPU0 and GPU1 are used (also you can use CPU, its number is 4294967295)
-atx="0868df7aeb8ba2afc198df980adea772e61672196aa68ecbdb47c28e4b28df1a"  # Use latest Highest ATX (Hex)
-nodeId="a962ee9043c9811756ecc9bac014ef38ae300ac855bfe246a1fd6a6994eb8166"  # Your public nodeId (smehserId)
-fileSize=$((32 * 1024 * 1024 * 1024))  # 32 GiB  (For larger volumes, for convenience, you can increase to 4,8,16+ GiB)
+providers=(0 1)  # in this case GPU0 and GPU1 are used (also you can use CPU, its number is 4294967295)
+atx="bcb4b0f215cb71f183b216a18d1c5bbd5b5e87d717ed7c4107776971630f108b"  # Use latest Highest ATX (Hex)
+nodeId="338f80246667638d966df6b5786133b4410d75ea84e8901a8ea3df26e8af552b"  # Your public nodeId (smehserId)
+fileSize=$((64 * 1024 * 1024 * 1024))  # 32 GiB  (For larger volumes, for convenience, you can increase to 4,8,16+ GiB)
 numUnits=87  # 64 GiB each (mininum 4)
 
 # If you want to manually set the scope of work you can set this following variables
-startFromFile=163	# The file number the script starts from
+startFromFile=0	# The file number the script starts from
 finishAtFile=0	# The last file that will be created. Calculated from "numUnits" if set to 0
 
-dataDir="/home/user/post"
+dataDir="/media/post02/post"
 postcli="./postcli"
 # end edit section
 
