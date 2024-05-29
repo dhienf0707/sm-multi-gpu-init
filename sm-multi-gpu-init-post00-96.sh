@@ -26,7 +26,7 @@ numUnits=87  # 64 GiB each (mininum 4)
 startFromFile=96	# The file number the script starts from
 finishAtFile=97	# The last file that will be created. Calculated from "numUnits" if set to 0
 
-dataDir="/media/post00/post"
+dataDir="/home/user/post"
 postcli="./postcli"
 # end edit section
 
