@@ -16,15 +16,15 @@
 # Thank you!
 
 # edit this section
-providers=(0 1)  # in this case GPU0 and GPU1 are used (also you can use CPU, its number is 4294967295)
+providers=(0 1 2 3 4)  # in this case GPU0 and GPU1 are used (also you can use CPU, its number is 4294967295)
 atx="0868df7aeb8ba2afc198df980adea772e61672196aa68ecbdb47c28e4b28df1a"  # Use latest Highest ATX (Hex)
 nodeId="a962ee9043c9811756ecc9bac014ef38ae300ac855bfe246a1fd6a6994eb8166"  # Your public nodeId (smehserId)
 fileSize=$((32 * 1024 * 1024 * 1024))  # 32 GiB  (For larger volumes, for convenience, you can increase to 4,8,16+ GiB)
 numUnits=87  # 64 GiB each (mininum 4)
 
 # If you want to manually set the scope of work you can set this following variables
-startFromFile=96	# The file number the script starts from
-finishAtFile=97	# The last file that will be created. Calculated from "numUnits" if set to 0
+startFromFile=158	# The file number the script starts from
+finishAtFile=162	# The last file that will be created. Calculated from "numUnits" if set to 0
 
 dataDir="/home/user/post"
 postcli="./postcli"
